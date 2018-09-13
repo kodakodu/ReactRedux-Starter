@@ -1,0 +1,15 @@
+${API_END_POINT}movie/[movieId]?append_to_response=videos&include_adult=false&${API_KEY}
+const BASE_URL="https://www.youtube.com/embed/";
+
+/node_modules
+bundle.js
+npm-debug.log
+.DS_Store
+
+# IntelliJ
+*.iml
+/.idea
+
+
+git remote add origin https://github.com/kodakodu/ReactRedux-Starter.git
+git push -u origin master
