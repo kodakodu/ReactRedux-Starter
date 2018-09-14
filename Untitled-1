@@ -13,3 +13,7 @@ npm-debug.log
 
 git remote add origin https://github.com/kodakodu/ReactRedux-Starter.git
 git push -u origin master
+
+const SEARCH_URL = "search/movie?language=fr&include_adult=false"
+
+${API_END_POINT}${SEARCH_URL}&${API_KEY}&query=${searchText}
