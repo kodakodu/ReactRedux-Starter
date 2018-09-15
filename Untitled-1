@@ -17,3 +17,7 @@ git push -u origin master
 const SEARCH_URL = "search/movie?language=fr&include_adult=false"
 
 ${API_END_POINT}${SEARCH_URL}&${API_KEY}&query=${searchText}
+
+
+Recommendations
+${API_END_POINT}movie/${this.state.currentMovie.id}/recommendations?{API_KEY}&language=fr
